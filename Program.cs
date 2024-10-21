@@ -9,6 +9,7 @@
         string filePath = utility.ParseText(Console.ReadLine());
         Console.WriteLine("Write something to a text file:\n");
         string text = utility.ParseText(Console.ReadLine());
+
         iOHandler.WriteToFile(iOHandler.CreateFile(filePath), text);
     }
 }
