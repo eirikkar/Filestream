@@ -6,7 +6,7 @@ class Utility
         {
             if (string.IsNullOrWhiteSpace(input))
             {
-                Console.WriteLine("Input is invalid. Please input a valid input!");
+                Console.Write("Input is invalid. Please input a valid input!: ");
                 input = Console.ReadLine();
             }
             else
